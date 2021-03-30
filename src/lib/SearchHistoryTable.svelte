@@ -3,6 +3,7 @@
   const dispatch = createEventDispatcher();
 
   export let localStorageItems;
+  export let localStorageKey;
 
   function clearLocalHistory() {
     localStorageItems = [];
