@@ -129,7 +129,7 @@
             <SearchHistoryTable on:loadDomainWhois={loadDomainWhois} bind:localStorageItems/>
           {/if}
 
-          <p class="has-text-centered"><a href="https://github.com/msyyn/sveltekit-whois" target="_blank">GitHub</a></p>
+          <p class="mt-6 has-text-centered"><a href="https://github.com/msyyn/sveltekit-whois" target="_blank">GitHub</a></p>
         </div>
       </div>
     </div>
