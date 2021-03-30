@@ -33,7 +33,7 @@
         <hr>
 
         <div class="domain-details__nameservers">
-          <h2 class="is-size-4 mb-2">Names servers</h2>
+          <h2 class="is-size-4 mb-2">Name servers</h2>
           {#each Object.values(loadedResult['Name Server']) as nameserver}
             <p>{nameserver}</p>
           {/each}
