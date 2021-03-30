@@ -126,7 +126,7 @@
           </form>
 
           {#if localStorageItems.length > 0}
-            <SearchHistoryTable on:loadDomainWhois={loadDomainWhois} bind:localStorageItems/>
+            <SearchHistoryTable localStorageKey={localStorageKey} on:loadDomainWhois={loadDomainWhois} bind:localStorageItems/>
           {/if}
 
           <p class="mt-6 has-text-centered"><a href="https://github.com/msyyn/sveltekit-whois" target="_blank">GitHub</a></p>
